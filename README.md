@@ -1,7 +1,7 @@
 # Team-2-21BCE0752-Design-of-Smart-Cities-Project-
 Design of Smart Cities Project Files 
 
-Presentation, Report, Researc Paper, Demo Video and Codes are included.
+Presentation, Report, Research Paper, Demo Video and Codes are included.
 
 Project is in two Parts.
 
