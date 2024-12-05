@@ -1,7 +1,12 @@
 # Team-2-21BCE0752-Design-of-Smart-Cities-Project-
-Design of Smart Cities Project Files 
 
-Presentation, Report, Research Paper, Demo Video and Codes are included.
+**Sayak Ray
+21BCE0752
+Team Number 2**
+
+Design of Smart Cities F1 Slot Project Files 
+
+Presentation, Report, Research Paper,COmbined Report and Research Paper, Demo Video,Codes and required files are included.
 
 Project is in two Parts.
 
@@ -11,7 +16,9 @@ Project is in two Parts.
   
      It includes the code and simultaion
 
-2) Python Drowsiness Detection Part
+     Code and files are also included in github folder
+   
+3) Python Drowsiness Detection Part
    Code is included.
    Libraries used are:
      1. cv2
