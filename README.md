@@ -16,7 +16,7 @@ Project is in two Parts.
   
      It includes the code and simulation. Distance can be controlled after starting the simulation and clicking on the ultrasonic sensor.
 
-     Code and files are also included in github folder
+     Code and files are also included in github repository folder
    
 3) Python Drowsiness Detection Part
    Code is included.
