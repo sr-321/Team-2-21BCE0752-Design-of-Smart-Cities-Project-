@@ -7,11 +7,11 @@ Project is in two Parts.
 
 1) Arduino Alert System and Obstruction Detection Part
    
-  Link https://wokwi.com/projects/414821820408150017
+     Link https://wokwi.com/projects/414821820408150017
   
-  It includes the code and simultaion
+     It includes the code and simultaion
 
-3) Python Drowsiness Detection Part
+2) Python Drowsiness Detection Part
    Code is included.
    Libraries used are:
      1. cv2
