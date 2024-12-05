@@ -14,7 +14,7 @@ Project is in two Parts.
    
      Link https://wokwi.com/projects/414821820408150017
   
-     It includes the code and simultaion
+     It includes the code and simulation. Distance can be controlled after starting the simulation and clicking on the ultrasonic sensor.
 
      Code and files are also included in github folder
    
