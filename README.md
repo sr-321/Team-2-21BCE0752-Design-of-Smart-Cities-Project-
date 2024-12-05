@@ -20,5 +20,6 @@ Project is in two Parts.
      6. threading
         
   shape_predictor_68_face_landmarks.dat is also included.
+  
   Download and before running the python code in the 13th line replace the location with the location of the file
     
