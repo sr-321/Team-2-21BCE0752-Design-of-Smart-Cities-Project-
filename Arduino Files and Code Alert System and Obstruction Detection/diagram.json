@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 19.8, "left": -29.4, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 102.4,
+      "left": 274.4,
+      "attrs": { "pins": "i2c" }
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": -104.1,
+      "left": -292.1,
+      "attrs": { "distance": "204" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -141.6,
+      "left": 501,
+      "attrs": { "volume": "0.1" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": -251.6, "left": 163.2, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo2", "top": -366.8, "left": -115.2, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo3", "top": -251.6, "left": -115.2, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo4", "top": -347.6, "left": 153.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "bz1:1", "uno:GND.1", "green", [ "v0" ] ],
+    [ "ultrasonic1:VCC", "uno:5V", "red", [ "v0" ] ],
+    [ "ultrasonic1:GND", "uno:GND.2", "black", [ "v0" ] ],
+    [ "ultrasonic1:TRIG", "uno:9", "green", [ "v0" ] ],
+    [ "ultrasonic1:ECHO", "uno:10", "green", [ "v0" ] ],
+    [ "lcd1:SDA", "uno:A4", "green", [ "h0" ] ],
+    [ "lcd1:SCL", "uno:A5", "green", [ "h0" ] ],
+    [ "lcd1:VCC", "uno:5V", "red", [ "h0" ] ],
+    [ "lcd1:GND", "uno:GND.3", "black", [ "h0" ] ],
+    [ "servo1:GND", "uno:GND.1", "black", [ "h0" ] ],
+    [ "servo1:V+", "uno:5V", "green", [ "h0" ] ],
+    [ "servo3:GND", "uno:GND.1", "black", [ "h0" ] ],
+    [ "servo4:GND", "uno:GND.1", "black", [ "h0" ] ],
+    [ "servo2:GND", "uno:GND.1", "black", [ "h0" ] ],
+    [ "servo3:V+", "uno:5V", "green", [ "h0" ] ],
+    [ "servo4:V+", "uno:5V", "green", [ "h0" ] ],
+    [ "servo2:V+", "uno:5V", "green", [ "h0" ] ],
+    [ "servo2:PWM", "uno:5", "green", [ "h0" ] ],
+    [ "servo4:PWM", "uno:6", "green", [ "h0" ] ],
+    [ "servo1:PWM", "uno:7", "green", [ "h0" ] ],
+    [ "servo3:PWM", "uno:8", "green", [ "h0" ] ],
+    [ "bz1:2", "uno:4", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
